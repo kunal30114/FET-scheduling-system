@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fet version="5.18.0">
+    <Institution_Name>Example Institution</Institution_Name>
+    <Comments>Temporary XML file for timetable generation</Comments>
+
+    <Hours_List>
+        <Number>6</Number>
+        <Name>8:00</Name>
+        <Name>9:00</Name>
+        <Name>10:00</Name>
+        <Name>11:00</Name>
+        <Name>12:00</Name>
+        <Name>1:00</Name>
+        <Name>2:00</Name>
+    </Hours_List>
+
+    <Days_List>
+        <Number>5</Number>
+        <Name>Monday</Name>
+        <Name>Tuesday</Name>
+        <Name>Wednesday</Name>
+        <Name>Thursday</Name>
+        <Name>Friday</Name>
+    </Days_List>
+
+    <Students_List>
+        <Year>
+            <Name>BTech_Department_1</Name>
+            <Number_of_Students>60</Number_of_Students>
+        </Year>
+        <Year>
+            <Name>BTech_Department_2</Name>
+            <Number_of_Students>60</Number_of_Students>
+        </Year>
+    </Students_List>
+
+    <Subjects_List>
+        <Subject>
+            <Name>Subject_1</Name>
+        </Subject>
+        <Subject>
+            <Name>Subject_2</Name>
+        </Subject>
+        <Subject>
+            <Name>Subject_3</Name>
+        </Subject>
+        <Subject>
+            <Name>Subject_4</Name>
+        </Subject>
+        <Subject>
+            <Name>Subject_5</Name>
+        </Subject>
+    </Subjects_List>
+
+    <Teachers_List>
+        <Teacher>
+            <Name>Teacher_1</Name>
+        </Teacher>
+        <Teacher>
+            <Name>Teacher_2</Name>
+        </Teacher>
+        <Teacher>
+            <Name>Teacher_3</Name>
+        </Teacher>
+        <Teacher>
+            <Name>Teacher_4</Name>
+        </Teacher>
+        <Teacher>
+            <Name>Teacher_5</Name>
+        </Teacher>
+    </Teachers_List>
+
+    <Buildings_List>
+        <Building>
+            <Name>Main_Building</Name>
+        </Building>
+    </Buildings_List>
+
+    <Rooms_List>
+        <Room>
+            <Name>Room_101</Name>
+            <Building>Main_Building</Building>
+            <Capacity>60</Capacity>
+        </Room>
+        <Room>
+            <Name>Room_102</Name>
+            <Building>Main_Building</Building>
+            <Capacity>60</Capacity>
+        </Room>
+    </Rooms_List>
+
+    <Time_Constraints_List>
+        <ConstraintBasicCompulsoryTime>
+            <Weight_Percentage>100</Weight_Percentage>
+            <Active>True</Active>
+            <Comments></Comments>
+        </ConstraintBasicCompulsoryTime>
+        <ConstraintMinDaysBetweenActivities>
+            <Weight_Percentage>100</Weight_Percentage>
+            <Consecutive_If_Same_Day>True</Consecutive_If_Same_Day>
+            <Number_of_Activities>5</Number_of_Activities>
+            <MinDays>1</MinDays>
+            <Active>True</Active>
+            <Comments>Minimum 1 day gap between activities</Comments>
+        </ConstraintMinDaysBetweenActivities>
+    </Time_Constraints_List>
+
+    <Space_Constraints_List>
+        <ConstraintBasicCompulsorySpace>
+            <Weight_Percentage>100</Weight_Percentage>
+            <Active>True</Active>
+            <Comments></Comments>
+        </ConstraintBasicCompulsorySpace>
+    </Space_Constraints_List>
+</fet>
