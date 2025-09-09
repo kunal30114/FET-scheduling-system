@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fet version="5.18.0">
+    <Institution_Name>Example Institution</Institution_Name>
+    <Comments>Sample timetable with teachers, students, subjects, and activities</Comments>
+
+    <Hours_List>
+        <Number>6</Number>
+        <Name>8:00</Name>
+        <Name>9:00</Name>
+        <Name>10:00</Name>
+        <Name>11:00</Name>
+        <Name>12:00</Name>
+        <Name>1:00</Name>
+        <Name>2:00</Name>
+    </Hours_List>
+
+    <Days_List>
+        <Number>5</Number>
+        <Name>Monday</Name>
+        <Name>Tuesday</Name>
+        <Name>Wednesday</Name>
+        <Name>Thursday</Name>
+        <Name>Friday</Name>
+    </Days_List>
+
+    <Students_List>
+        <Year>
+            <Name>BTech_Department_1</Name>
+            <Number_of_Students>60</Number_of_Students>
+        </Year>
+        <Year>
+            <Name>BTech_Department_2</Name>
+            <Number_of_Students>60</Number_of_Students>
+        </Year>
+    </Students_List>
+
+    <Subjects_List>
+        <Subject><Name>Subject_1</Name></Subject>
+        <Subject><Name>Subject_2</Name></Subject>
+        <Subject><Name>Subject_3</Name></Subject>
+        <Subject><Name>Subject_4</Name></Subject>
+        <Subject><Name>Subject_5</Name></Subject>
+    </Subjects_List>
+
+    <Teachers_List>
+        <Teacher><Name>Teacher_1</Name></Teacher>
+        <Teacher><Name>Teacher_2</Name></Teacher>
+        <Teacher><Name>Teacher_3</Name></Teacher>
+        <Teacher><Name>Teacher_4</Name></Teacher>
+        <Teacher><Name>Teacher_5</Name></Teacher>
+    </Teachers_List>
+
+    <Buildings_List>
+        <Building><Name>Main_Building</Name></Building>
+    </Buildings_List>
+
+    <Rooms_List>
+        <Room>
+            <Name>Room_101</Name>
+            <Building>Main_Building</Building>
+            <Capacity>60</Capacity>
+        </Room>
+        <Room>
+            <Name>Room_102</Name>
+            <Building>Main_Building</Building>
+            <Capacity>60</Capacity>
+        </Room>
+    </Rooms_List>
+
+    <Time_Constraints_List>
+        <ConstraintBasicCompulsoryTime>
+            <Weight_Percentage>100</Weight_Percentage>
+            <Active>True</Active>
+            <Comments></Comments>
+        </ConstraintBasicCompulsoryTime>
+    </Time_Constraints_List>
+
+    <Space_Constraints_List>
+        <ConstraintBasicCompulsorySpace>
+            <Weight_Percentage>100</Weight_Percentage>
+            <Active>True</Active>
+            <Comments></Comments>
+        </ConstraintBasicCompulsorySpace>
+    </Space_Constraints_List>
+
+    <Activities_List>
+        <!-- Department 1 Activities -->
+        <Activity>
+            <Teacher>Teacher_1</Teacher>
+            <Students>BTech_Department_1</Students>
+            <Subject>Subject_1</Subject>
+            <Duration>1</Duration>
+            <Total_Duration>1</Total_Duration>
+            <Activity_Group_Id>1</Activity_Group_Id>
+            <Id>1</Id>
+        </Activity>
+        <Activity>
+            <Teacher>Teacher_2</Teacher>
+            <Students>BTech_Department_1</Students>
+            <Subject>Subject_2</Subject>
+            <Duration>1</Duration>
+            <Total_Duration>1</Total_Duration>
+            <Activity_Group_Id>2</Activity_Group_Id>
+            <Id>2</Id>
+        </Activity>
+        <Activity>
+            <Teacher>Teacher_3</Teacher>
+            <Students>BTech_Department_1</Students>
+            <Subject>Subject_3</Subject>
+            <Duration>1</Duration>
+            <Total_Duration>1</Total_Duration>
+            <Activity_Group_Id>3</Activity_Group_Id>
+            <Id>3</Id>
+        </Activity>
+        <Activity>
+            <Teacher>Teacher_4</Teacher>
+            <Students>BTech_Department_1</Students>
+            <Subject>Subject_4</Subject>
+            <Duration>1</Duration>
+            <Total_Duration>1</Total_Duration>
+            <Activity_Group_Id>4</Activity_Group_Id>
+            <Id>4</Id>
+        </Activity>
+        <Activity>
+            <Teacher>Teacher_5</Teacher>
+            <Students>BTech_Department_1</Students>
+            <Subject>Subject_5</Subject>
+            <Duration>1</Duration>
+            <Total_Duration>1</Total_Duration>
+            <Activity_Group_Id>5</Activity_Group_Id>
+            <Id>5</Id>
+        </Activity>
+
+        <!-- Department 2 Activities -->
+        <Activity>
+            <Teacher>Teacher_1</Teacher>
+            <Students>BTech_Department_2</Students>
+            <Subject>Subject_1</Subject>
+            <Duration>1</Duration>
+            <Total_Duration>1</Total_Duration>
+            <Activity_Group_Id>6</Activity_Group_Id>
+            <Id>6</Id>
+        </Activity>
+        <Activity>
+            <Teacher>Teacher_2</Teacher>
+            <Students>BTech_Department_2</Students>
+            <Subject>Subject_2</Subject>
+            <Duration>1</Duration>
+            <Total_Duration>1</Total_Duration>
+            <Activity_Group_Id>7</Activity_Group_Id>
+            <Id>7</Id>
+        </Activity>
+        <Activity>
+            <Teacher>Teacher_3</Teacher>
+            <Students>BTech_Department_2</Students>
+            <Subject>Subject_3</Subject>
+            <Duration>1</Duration>
+            <Total_Duration>1</Total_Duration>
+            <Activity_Group_Id>8</Activity_Group_Id>
+            <Id>8</Id>
+        </Activity>
+        <Activity>
+            <Teacher>Teacher_4</Teacher>
+            <Students>BTech_Department_2</Students>
+            <Subject>Subject_4</Subject>
+            <Duration>1</Duration>
+            <Total_Duration>1</Total_Duration>
+            <Activity_Group_Id>9</Activity_Group_Id>
+            <Id>9</Id>
+        </Activity>
+        <Activity>
+            <Teacher>Teacher_5</Teacher>
+            <Students>BTech_Department_2</Students>
+            <Subject>Subject_5</Subject>
+            <Duration>1</Duration>
+            <Total_Duration>1</Total_Duration>
+            <Activity_Group_Id>10</Activity_Group_Id>
+            <Id>10</Id>
+        </Activity>
+    </Activities_List>
+</fet>
